@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background-color: #ffe4f5;
+    color: #2a0a4a;
+    font-family: system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Arial Black", Arial, sans-serif;
+    font-weight: normal;
+}
+
+img {
+    width: 100%;
+}
+
+header,
+section,
+footer {
+    width: min(90%, 56rem);
+    margin: 0 auto;
+}
+
+header {
+    padding: 1.5rem 0;
+}
+
+.logo {
+    width: 10rem;
+    vertical-align: middle;
+}
+
+nav {
+    display: inline;
+    margin-left: 2rem;
+}
+
+nav a {
+    color: #2a0a4a;
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+
+nav a:hover {
+    color: #ff2bd6;
+}
+
+#programme > div {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+.gauche {
+    position: relative;
+}
+
+.droite {
+    padding-left: 1rem;
+}
+
+.autocollant {
+    position: absolute;
+    top: -1.5rem;
+    right: -1.5rem;
+    width: 7rem;
+    rotate: 12deg;
+}
+
+.surtitre {
+    color: #2b5bff;
+}
+
+h1 {
+    color: #ff2bd6;
+    font-size: 8vw;
+}
+
+ol {
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+li {
+    padding: 0.5rem 0;
+    border-bottom: 2px solid #c9b6ff;
+}
+
+#manifeste {
+    width: 100%;
+    margin: 4rem 0;
+    padding: 4rem 10%;
+    background-color: #2b5bff;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+h2 {
+    color: #2b5bff;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+article {
+    margin-bottom: 3rem;
+}
+
+article > img {
+    height: 14rem;
+    object-fit: cover;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+}
+
+label {
+    display: block;
+    margin: 1.25rem 0 0.25rem;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px solid #2a0a4a;
+    background-color: #ffffff;
+    color: #2a0a4a;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+button {
+    margin-top: 2rem;
+    padding: 0.75rem 2rem;
+    border: none;
+    background-color: #ff2bd6;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #2b5bff;
+}
+
+footer {
+    margin-top: 4rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 0.7rem;
+}

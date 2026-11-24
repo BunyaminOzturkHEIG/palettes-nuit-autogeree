@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <polygon fill="#ffffff" stroke="#2b5bff" stroke-width="5" points="100,2 122,19 149,15 159,41 185,51 181,78 198,100 181,122 185,149 159,159 149,185 122,181 100,198 78,181 51,185 41,159 15,149 19,122 2,100 19,78 15,51 41,41 51,15 78,19"/>
+  <text x="100" y="94" text-anchor="middle" font-family="'Arial Black', Arial, sans-serif" font-size="34" fill="#ff2bd6">prix</text>
+  <text x="100" y="132" text-anchor="middle" font-family="'Arial Black', Arial, sans-serif" font-size="34" fill="#ff2bd6">libre</text>
+</svg>

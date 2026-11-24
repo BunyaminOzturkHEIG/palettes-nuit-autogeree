@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palettes — nuit autogérée à la Friche</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/logo.svg" alt="Logo de Palettes">
+        <nav>
+            <a href="#programme">Line-up</a>
+            <a href="#ateliers">Ateliers</a>
+            <a href="#benevoles">Bénévoles</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="programme">
+            <div class="gauche">
+                <img src="images/affiche.jpg" alt="Affiche de la soirée : une étoile chromée et des bulles irisées">
+                <img class="autocollant" src="images/prix-libre.svg" alt="Autocollant « Prix libre »">
+            </div>
+            <div class="droite">
+                <p class="surtitre">Le collectif Palettes présente</p>
+                <h1>palettes</h1>
+                <p>Samedi 13 mars 2027 · La Friche, Yverdon-les-Bains</p>
+                <ol>
+                    <li>18h — Ouverture, cantine végane</li>
+                    <li>19h — Röstigraben Sound System</li>
+                    <li>21h — Lac de Joux (live)</li>
+                    <li>23h — Bise Noire b2b Foehn</li>
+                    <li>01h — DJ Gratin</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="manifeste">
+            <p>Pas de sponsors, pas de videurs, pas de tarif. L’entrée, la cantine et la bière PG sont à prix libre : tu
+                donnes ce que tu peux. Ici, on prend soin les un·e·s des autres. Le harcèlement, c’est la porte.</p>
+        </section>
+
+        <section id="ateliers">
+            <h2>ateliers de l’aprèm</h2>
+            <article>
+                <img src="images/son.jpg" alt="Onde sonore chromée sur fond rose et bleu">
+                <h3>initiation dj</h3>
+                <p>Deux platines, un ampli et des gens patients. Viens passer tes premiers disques, aucune expérience
+                    requise. De 14h à 17h.</p>
+            </article>
+            <article>
+                <img src="images/encre.jpg" alt="Trames de points roses et bleus superposées">
+                <h3>sérigraphie</h3>
+                <p>Ramène un t-shirt ou un tote bag : on y imprime l’affiche de la soirée en rose fluo. De 14h à 18h.</p>
+            </article>
+            <article>
+                <img src="images/tissu.jpg" alt="Plis de satin holographique">
+                <h3>troc de fringues</h3>
+                <p>Dépose ce que tu ne portes plus, repars avec ce qui te plaît. Ce qui reste part à la ressourcerie. De
+                    15h à 18h.</p>
+            </article>
+        </section>
+
+        <section id="benevoles">
+            <h2>viens filer un coup de main</h2>
+            <p>La Friche tourne grâce aux bénévoles. Choisis un créneau, on t’écrit la semaine d’avant.</p>
+            <form>
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" required>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+                <label for="creneau">Créneau</label>
+                <select id="creneau" name="creneau">
+                    <option>Montage — samedi 10h</option>
+                    <option>Bar — samedi 18h</option>
+                    <option>Cantine — samedi 18h</option>
+                    <option>Démontage — dimanche 11h</option>
+                </select>
+                <button type="submit">Je m’inscris</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Collectif Palettes · La Friche, Yverdon-les-Bains · Autogéré depuis 2011</p>
+    </footer>
+</body>
+
+</html>
